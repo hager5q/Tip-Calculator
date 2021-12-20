@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-image: linear-gradient(to bottom right , rgb(255, 0, 0) , rgb(5, 5, 5));
+    background-image: linear-gradient(to bottom right , rgb(255, 0, 0) , rgb(102, 0, 0));
 }
 input , select {
     margin-bottom: 12px;
