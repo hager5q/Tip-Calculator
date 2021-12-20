@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class=" vh-100 d-flex align-content-center ">
+      <div class="w-25 m-auto  overflow-hidden imp">
+        <div class="bg-dark text-light w-100 text-center title">
+          <p>TIP CACULATOR</p>
+        </div>
+        <div class="px-3 bg-light p-2">
+          <div>
+            <p>How much was your bill?</p>
+            $ <input type="number" id="bill">
+          </div>
+          <div>
+            <p>How was your service?</p>
+            <div class="dropdown w-75">
+              <select class="custom-select" id="select" >
+                <option selected>select quality of the service</option>
+                <option value="0.05">Terrible - 5%</option>
+                <option value="0.1">Bad - 10%</option>
+                <option value="0.15">OK - 15%</option>
+                <option value="0.2">Good - 20%</option>
+                <option value="0.3">Outstanding - 30%</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <p>How many people are sharing the bill?</p>
+            <input type="number" id="people"> people 
+          </div>
+          <div class="d-flex justify-content-center my-2">
+            <button class="btn btn-danger " onclick="calculate();">CALCULATE!</button>
+          </div>
+        </div>
+        <div class="bg-light p-3 text-center d-none " id="totaltip">
+          <h4>TOP AMOUNT</h4>
+          <p>$ <span id="tip">0.00</span></p>
+          <p>each</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

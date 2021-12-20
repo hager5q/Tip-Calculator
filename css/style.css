@@ -1,0 +1,20 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right , rgb(255, 0, 0) , rgb(5, 5, 5));
+}
+input , select {
+    margin-bottom: 12px;
+}
+p{
+    margin-bottom:5px;
+}
+.title{
+    border-radius: 12px  12px 0 0;
+    padding: 3px;
+}
+
+@media only screen and (max-width: 900px) {
+    .imp {
+        width: 50% !important;
+    }
+}
